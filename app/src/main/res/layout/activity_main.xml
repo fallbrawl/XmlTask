@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.attracttest.attractgroup.xmltask.MainActivity"
+    android:divider="@drawable/divider"
+    android:showDividers="middle"
+    android:dividerPadding="22dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wow"
+        android:layout_gravity="center"
+        android:background="@drawable/figure1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="wow2"
+        android:background="@drawable/figure02"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="wow3"
+        android:layout_gravity="center"
+        android:background="@drawable/figure03"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonwork"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        />
+
+
+</LinearLayout>
